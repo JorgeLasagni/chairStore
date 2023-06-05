@@ -85,3 +85,15 @@ footer {
     height: 30px;
     margin: 0 5px;
 }
+
+.resenias{
+    gap: 0px;
+    border: 3px double rgb(34, 2, 41);
+    margin: 10PX;
+    padding: 15px;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    font-size: larger; 
+    font-weight: normal; 
+}
