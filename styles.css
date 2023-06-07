@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     color: blue;
-    /*background: url(./imagenes/3sillas.png) no-repeat center center fixed;*/
+    background: url(./imagenes/3sillas.png) no-repeat center center fixed;
     background-color:darkkhaki;
     background-size: cover;
 }
