@@ -1,3 +1,26 @@
+html,
+body,
+.container-fluid,
+.row,
+.col {
+    height: 95%;
+}
+.custom-col-1 {
+    /* background-color: #a7bbef; */
+    padding: 20px;
+    border: 1px solid #0a0a0a;
+}
+.custom-col-2 {
+    /* background-color: #f767e2; */
+    padding: 20px;
+    border: 1px solid #3e0b6b;
+}
+@media (min-width: 992px) {
+    .custom-col-2 {
+        flex: 0 0 50%;
+        max-width: 33%;
+    }
+}
 
 body {
     margin: 0;
@@ -105,3 +128,4 @@ footer {
     transition: transform 0.5s ease;
   }
 /*--------------------------------------------------------------------*/
+
